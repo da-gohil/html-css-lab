@@ -1,6 +1,7 @@
- include all the tags used
+Sort My Spot 🎉
 
-Webpage Name:- Sort My spot - An online guestlist reservation platform for nightclubs
+Overview - Sort My Spot is a dynamic online guest list reservation website designed for nightclubs and concerts. This project aims to revolutionize the nightlife industry by providing a seamless and hassle-free reservation experience for users. 🎟️🎶
+
 
 1) <html lang="en"> -- To define the language of the website
 2) <head> -- To define the contents of HTML page in Head part 

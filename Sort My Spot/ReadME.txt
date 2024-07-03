@@ -1,38 +1,43 @@
 Sort My Spot 🎉
 
-Overview - Sort My Spot is a dynamic online guest list reservation website designed for nightclubs and concerts. This project aims to revolutionize the nightlife industry by providing a seamless and hassle-free reservation experience for users. 🎟️🎶
+Overview - Sort My Spot is a dynamic online guest list reservation website for nightclubs and concerts. This project aims to revolutionize the nightlife industry by providing users with a seamless and hassle-free reservation experience. 🎟️🎶
 
+# HTML Elements Used
 
-1) <html lang="en"> -- To define the language of the website
-2) <head> -- To define the contents of HTML page in Head part 
-3) <link> -- Tag used for linking objects in the head and body
-4) Favicon (used with link and type="image/x-icon) - For adding icon / logo next to title
-5) External CSS - (<link rel="stylesheet" href="mystyle.css">) - for attaching an external CSS file into the HTML page in order to improve the feel and overall layout of the webpage.
-6) <title> -- for adding title of the webpage
-7) <h1>,<h2> -- heading tags to define the heading
-8) <div> -- to group similar content together
-9) <ul> -- unordered list for no sequence of data
-10) <li> -- list items adding
-11) <br> -- to add a line break on the webpage
-12) <img src=""> --  to link an image into the body
-13) <a href=""> -- Anchor tag used for linking elements
-14) <form> -- In order to keep the website interactive and collect user information
-15) <form method=”POST”> -- tells the web browser how to send form data to a server.
-16) <input type=""> -- used for specifying an input field where to enter data. 
-17) TxtArea -- to collect user inputs like comments or reviews.
-18) <button> -- to activate the actions or submit form data.
-19) <label> -- to showcase what the field represents on the form you are creating and ultimately displaying.
-20) <video> -- to input a video in a webpage
-21) <audio> -- to include sound content such as music or other audio streams.
-22) <table> -- to represent data using rows and columns.
-23) <thead> -- group header content in table
-24) <th> --  header cell in table 
-25) <tr> -- define row in table
-26) <td> -- to input data in table
-27) <tbody> -- to group the content in an HTML table body
-28) <p> -- to add multiple lines of phrases
-29) <a href="mailto:enquiries@sortmyspot.com"> -- anchor tag which is used for linking multiple webpages / operation(HyperLink).
-30) <footer> -- to identify the footer of a section.
+1. `<html lang="en">`: Defines the language of the website 
+2. `<head>`: Contains metadata and links to external resources 
+3. `<link>`: Used for linking external resources, such as stylesheets and favicons 
+4. `<link rel= "icon" type="image/x-icon" href="favicon.ico">`: Adds an icon/logo next to the title in the browser tab 
+5. `<link rel="stylesheet" href="mystyle.css">`: Attaches an external CSS file to improve the layout and design 
+6. `<title>`: Sets the title of the webpage 
+7. `<h1>`, `<h2>`: Heading tags used to define different levels of headings 
+8. `<div>`: Groups similar content together for better organization 
+9. `<ul>`: Creates an unordered list of items without a specific sequence 
+10. `<li>`: Defines list items within `<ul>` or `<ol>` 
+11. `<br>`: Adds a line break ️
+12. `<img src="path/to/image.jpg">`: Embeds an image into the webpage 
+13. `<a href= "url">`: Creates a hyperlink to another webpage or resource 
+14. `<form>`: Creates an interactive form to collect user information 
+15. `<form method="POST">`: Specifies how form data should be sent to the server 
+16. `<input type="text">`: Creates an input field for user data entry 
+17. `<textarea>`: Collects user inputs such as comments or reviews 
+18. `<button>`: Activates actions or submits form data 
+19. `<label>`: Provides a label for form elements, indicating their purpose 
+20. `<video src="path/to/video.mp4" controls>`: Embeds a video into the webpage 
+21. `<audio src="path/to/audio.mp3" controls>`: Includes audio content 🎵
+22. `<table>`: Creates a table to organize data into rows and columns 
+23. `<thead>`: Groups header content in a table 
+24. `<th>`: Defines a header cell in a table 
+25. `<tr>`: Defines a row in a table 
+26. `<td>`: Defines a data cell in a table 
+27. `<tbody>`: Groups the body content in a table 🗃
+28. `<p>`: Defines a paragraph 
+29. `<a href="mailto:enquiries@sortmyspot.com">`: Creates an email link 
+30. `<footer>`: Identifies the footer section of a webpage 
 
-*) Overall Description
-> SortMyScene is a cutting-edge online booking tool committed to revolutionizing the nightlife business and making the reservatino experience hassle free.
+# Features
+1. User-Friendly Interface
+2. Responsive Design
+3. Interactive Forms
+4. Multimedia Support - Integrated images, videos, and audio to enrich the user experience 🎥🎵
+5. Data Organization: Utilized tables and lists to present information clearly and effectively 📊

@@ -1,0 +1,30 @@
+Below, HTML and HTML5 controls MUST be there, and feel free to add more HTML and HTML5 controls.
+
+Favicon - Logo done
+Images - done
+Hyperlink - done
+Button - done
+header - done
+Form - DONE
+footer - DONE
+
+
+audio - pending
+video - pending
+Table - pending
+summary - pending
+Menu - pending
+
+tel for contact information - pending 
+mailto for contact information - pending 
+
+Use an external CSS file only.
+
+Use appropriate colors for the website, headings, and layouts; use relevant images.
+
+Break the page into sections for better visual appeal (be creative).
+
+Include the readme.txt/readme.md file and include all the tags used and give a short description
+Watch how to use Git video and resources under “Git Videos and Slides” in files.
+
+The assignment must be submitted on your PRIVATE GitHub account (use Northeastern email account), and a zip file must be submitted on CANVAS and the GitHub URL of the assignment in the canvas remarks.

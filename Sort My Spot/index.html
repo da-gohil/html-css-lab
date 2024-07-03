@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/discoball.png">
+    <link rel="stylesheet" href="mystyle.css"> 
+    <title>SORT MY SPOT</title>    
+</head>
+
+<body>  
+    <!-- Header starts here -->
+
+    <header> 
+        <br> <h2>WELCOME G :) </h2>
+    </header>
+    
+    <!-- Banner for images starts here -->
+    
+    <div id="banner">
+        <div class = "navbar">
+            <img src="images/smslogo.png" class="logo">
+            <ul>
+                <li><a href="demo.html"><b> Nightclub Guestlist </b></a> </li>
+                <li><a href="demo.html"><b> Concerts </b></a> </li>
+                <li><a href="demo.html"><b> Table Reservations </b></a> </li>
+                <li><a href="demo.html"><b> Live Singing </b></a> </li>
+                <li><a href="demo.html"><b> Open Air Parties </b></a> </li>                    
+           </ul>               
+        </div>
+        
+        <!-- Sort My Spot Content part -->
+    
+        <div class="content">
+            <br>
+            <h1> SORT MY SPOT </h1>
+            <br>
+            <p>Your Only Place For Nightlife & Concerts Reservations </p>
+            <br>
+                <div>               
+                    <button type="button"><span></span>WHY CHOOSE US?</button>           
+                </div>              
+        </div> 
+            
+        <!-- Sort My Spot Venues Image containers part -->
+        
+        <div id="container">
+            <div class="venues">
+                <a href="https://www.dragonflyexperience.in/" target="_blank">
+                    <img src="Clubs/dragonflyexp.jpeg" alt="dragonflyexp">
+                    <div class="desc">Dragonfly experience</div>
+                </a>    
+            </div>
+
+            <div class="venues">
+                <a href="https://www.instagram.com/matahaarinightclub/?hl=en/" target="_blank">
+                    <img src="Clubs/Matahaari.jpeg" alt="Matahaari">
+                    <div class="desc">Matahaari Nightclub</div>
+                </a>    
+            </div>  
+
+            <div class="venues">
+                <a href="https://bombaycocktailbar.in/" target="_blank">
+                    <img src="Clubs/BCB.jpg" alt="bcb">
+                    <div class="desc">Bombay Cocktail Bar</div>
+                </a>
+            </div> 
+
+            <div class="venues">
+                <a href="https://thebarrelandco.com/" target="_blank">
+                    <img src="Clubs/Barrelco.jpeg" alt="Barrelco">
+                    <div class="desc">The Barel & Co</div> 
+                </a>    
+            </div>
+        </div>        
+        <br><br>         
+    
+        <!-- Reservation Container & Contact form -->    
+        <div id="flex-contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-title">
+                <h2> EXCITED ?! SORT YOURSELF NOW FOR FREE! </h2>
+                <hr>  
+                <br>           
+            </div>
+            
+            <div class="contact-form">
+                <input type="hidden" name="access_key" value="95fac8ca-c8f4-4fa7-82f8-20150befe750">
+                    <input type="text" name="name" placeholder="Enter Your Name" class="contact-inputs" required> <br><br>
+                    <select name="venues" class="contact-inputs">
+                        <option value="dfly, Andheri">Dragonfly Experience</option>
+                        <option value="mat, Wo">Matahaari</option>
+                        <option value="Barr">Barel and Co</option>
+                        <option value="bcb">Bombay Cocktail Bar</option>
+                    </select> <br><br>
+                    <input type="number" name="count" value = "1" class="contact-inputs" min="1" max="1" required> <br><br>
+                    <input type="date" name="date"class="contact-inputs" required min="2024-01-01" max="2024-12-31"> <br><br>
+                    
+                    <input type="email" name="email" placeholder="Enter your Email" class="contact-inputs" required> <br><br>
+
+                    <txtarea name = "message" placeholder="Your Number of people" class="contact-inputs" required>
+                    <button type="submit"><span></span> SORT MY SPOT <img src="formContents/arrow_icon.png" alt="submitBtn"></button>     
+                </form> 
+                <br><br>
+
+                <!-- Audio and Video Editing part -->
+
+                <div id="media-video">
+                    <label style="color: white;">A GLIMPSE OF UPCOMING EVENTS :- </label> 
+                    <br><br>
+                    <video controls playsinlinewidth="480" height="800" loop="100">
+                        <source src="Media/tourvideo.mp4" type="video/ogg">
+                      Your browser does not support the video tag.
+                      
+                    </video>
+                    <br> <br>
+                </div>  
+                            
+                <div id="media-audio">
+                     
+                    <label style="color: white;">A FREE TOKEN OF MUSIC TO GET LIGHTEN UP:- </label>
+                    <br><br>
+                    <audio controls=controls>
+                        <source src="Media/titanium-170190.mp3" type="audio/mpeg">>
+                    </audio>
+                </div> 
+                <br>  
+
+                <!-- Tabular Advantages part -->
+        
+                <div id="tableContents">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Why choose us? </th>
+                              <th>Our Key Features</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Event Discovery</strong></td>
+                                <td>Explore a wide range of events happening in your city, from parties to concerts and cultural gatherings.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Personalized Recommendations</strong></td>
+                                <td>Receive event recommendations tailored to your preferences, ensuring you discover activities that match your interests.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Social Integration</strong></td>
+                                <td>Fostering a shared sense of experiences.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                </div>  
+                
+                <!-- Overall summary part -->
+        
+                <br>
+                <div id="summary">
+                    <p style="color: aliceblue;"> <em>"A cutting-edge online booking tool committed to revolutionizing the nightlife business."</p> 
+                </div>  
+                <br> <br>    
+                <div id="contactUs">   
+                    <label>For corporate booking and concert ticketing, Reach us out on :- </label> 
+                    <br>
+                  
+                    <!-- E-mail and Phone section -->
+        
+                    <a href="mailto:enquiries@sortmyspot.com">enquiries@sortmyspot.in </a> 
+                    <br><br>
+                    <p> <a href="tel:777-8888-999">Click</a> here to call a customer support representative </p>
+                </div>  
+                     
+            </div>
+
+        </div>
+    </div> 
+
+</body>
+
+<footer>
+    &copy; Copyright; 2020-2024 SortMySpot.in | All rights reserved | Duplication of anything from this site leads to legal notice.
+</footer>
+
+</html>

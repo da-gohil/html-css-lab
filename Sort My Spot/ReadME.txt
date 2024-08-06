@@ -1,6 +1,4 @@
- include all the tags used
-
-Webpage Name:- Sort My spot - An online guestlist reservation platform for nightclubs
+WebPage Name:- Sort My spot - An Online Guestlist Reservation platform for nightclubs
 
 1) <html lang="en"> -- To define the language of the website
 2) <head> -- To define the contents of HTML page in Head part 

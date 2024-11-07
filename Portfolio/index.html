@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/discoball.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan Gohil - Portfolio </title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f61b6c9f52.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#services">MY KNOWLEDGE BASE</a></li>
+                <li><a href="#certification">CERTIFICATIONS</a></li>
+                <li><a href="#media">KNOW ME BETTER? </a></li>
+                <li><a href="#contact">CONTACT</a></li>                
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span> JAVA FULL STACK DEVELOPER </span></p>
+            <h1> Hi,<span> I'm Darshan Gohil<br></span></h1>
+        </div>
+    </div>
+</div>
+<!--About-->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/portf_image.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subTitle">About Me</h1>
+                <p>
+                    I am an ISTQB Certified QA Tester and Full Stack Developer currently pursuing a Master of Science in Information Systems (MIS) at Northeastern University, Boston.
+                </p>  
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick="opentab('education')">Education</p>                    
+                </div>    
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java Full Stack</span><br> Developing E2E Quality Software</li>
+                        <li><span>Web Development Architect</span><br> Designing efficient and cost-effective websites</li>
+                        <li><span>Public Relations</span><br> Manage your overall brand and digital marketing</li>                    
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sept 2021 - Dec 2023</span><br> Sr Software Engineer at Capgemini,India</li>
+                        <li><span>Aug 2019 - Apr 2020</span><br> Public Relations Officer - Students' Council</li>
+                        <li><span>Aug 2017 - Nov 2017</span><br> Teaching Assistant - Universal College </li>                    
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education" >
+                    <ul>
+                        <li><span>TBC 2025 </span><br> MS Information Systems Graduate</li>
+                        <li><span>2021 </span><br> B.E. Computer Engineering</li>
+                        <li><span>2017 </span><br> HSC Science - State Board</li>                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subTitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p> Providing expert Java software solutions tailored to meet diverse business needs,
+                    offering services such as custom development, modernization, integration, and ongoing support. 
+                </p>
+                <a href="https://www.oracle.com/java/technologies/downloads/">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-uncharted"></i>
+                <h2>Website Development</h2>
+                <p>Facilitating expert Web development solutions tailored to meet diverse business needs,
+                    offering services such as e-commerce, modernization, payment gateway, and ongoing support. 
+                </p>
+                <a href="https://tms-outsource.com/blog/posts/web-technologies/">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Digital Marketing</h2>
+                <p> Offering comprehensive digital marketing services, 
+                    including SEO, SEM, social media management, content creation, and analytics. 
+                </p>
+                <a href="https://www.constantcontact.com/blog/digital-marketing-strategies/">Learn More</a>
+            </div>
+        </div>
+    </div>    
+
+</div>
+<!-- Certifications -->
+<div id="certification">
+    <div class="container">
+        <h1 class= "subTitle"> My Certifications</h1>
+        <div class="certificate-list">
+            <div class="certs">
+                <img src="images/APLUS - Certified_page-0001.jpg">
+            </div>
+
+            <div class="certs">
+                <img src="images/Emotional and Social intelligence_page-0001.jpg">
+            </div>
+
+            <div class="certs">
+                <img src="images/ISTQB_CTFL_ Darshan_Gohil_page-0001.jpg">
+            </div>
+        </div>    
+    </div>
+</div>
+
+<!-- Audio and Video Editing part -->
+
+<div id="media">
+    <div class="container-media">
+        <h1 class= "subTitle">Quick Introduction </h1>
+        <div class="media-video">
+            <video controls playsinlinewidth="350" height="700" loop="100">
+                <source src="Media/video_recording.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <br><br>
+        <div class="media-audio">
+            <h1 class= "subTitle">Voice over</h1>        
+            <audio controls=controls>
+                <source src="Media/titanium-170190.mp3" type="audio/mpeg">>
+            </audio>
+        </div>
+    </div>    
+</div>  
+
+<!--Contact us-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="subTitle">Contact Me </h1>
+        
+                <a href="mailto:gohil.da@northeastern.edu"><i class="fa-solid fa-envelope"></i> gohil.da@northeastern.edu </a><br>
+                <a href="tel:8286654716"><i class="fa-light fa-phone"></i> +91 8286654716 </a>
+                
+                <div class="social-icons">
+                   <a href="https://www.linkedin.com/in/darshan-gohil-3397b820b/"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                   <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i> </a>
+                   <a href="mailto:gohil.da@northeastern.edu"> <i class="fa-solid fa-envelope"></i> </a>
+                   
+                </div>
+                <br><br>
+                <a href="images/Darshan Gohil Resume.pdf" class="btn btn2"> Download CV</a>
+            </div>
+            
+            <div class="contact_right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows = "6" placeholder="Enter Message"> </textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Overall summary part -->
+        
+        <br> <br>
+        <div id="summary">
+            <p style="color: aliceblue; text-align: center;"> <em>"I play a crucial role in maintaining the quality and reliability of the software systems, ensuring a seamless and secure user experience for customers and employees.
+
+                Ensuring that doing all this without missing the fun elements via collaboration with different teams and always delving into computer-related domains."</p> 
+        </div>  
+        <br>
+
+<footer>
+    &copy; Copyright; ISO 1999-2024 DarshanGohilPortfolio.com | All rights reserved | Duplications leads to legal action .
+</footer>
+
+
+<script>    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+</script> 
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
